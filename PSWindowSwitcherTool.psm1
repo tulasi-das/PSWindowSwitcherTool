@@ -64,7 +64,7 @@ function Get-OpenWindows {
     return $windowList
 }
 
-function Show-WindowSelector {
+function Start-PSWindowSwitcherTool {
     Add-Type -AssemblyName System.Windows.Forms
     Add-Type -AssemblyName System.Drawing
 
@@ -135,4 +135,4 @@ function Show-WindowSelector {
     $form.ShowDialog()
 }
 
-Show-WindowSelector
+Export-ModuleMember -Function Start-PSWindowSwitcherTool 
