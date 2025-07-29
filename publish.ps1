@@ -1,1 +1,1 @@
-Publish-Module -name .PSWindowSwitcherTool.psd1 -NuGetApiKey $env:PSGALLERY_API_KEY -Force
+Publish-Module -name .\PSWindowSwitcherTool.psd1 -NuGetApiKey $env:PSGALLERY_API_KEY -Force
